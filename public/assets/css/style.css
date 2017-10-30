@@ -8,15 +8,20 @@ html,body{
     line-height: 1.6;
     background: #fff;
     font-family: sans-serif;
-    color: #989898;
+    background-color: #fff;
 }
 
 #todo-wrapper{
-    max-width: 720px;
-    background: #ffffff;
+    max-width: 640px;
+    background: #333;
     margin: 0 auto;
     padding: 20px 10px;
     box-sizing: border-box;
+}
+form{
+width: 80%;
+margin: 0 auto;
+
 }
 
 #todo-wrapper form:after{
@@ -29,11 +34,11 @@ html,body{
 input[type="text"]{
     width: 70%;
     padding: 16px;
-    background:#181c22;
+    background:#fff;
     border: 0;
     float: left;
     font-size: 16px;
-    color: #fff;
+    color: #333;
 }
 input[type="text"]:focus{
     outline:none;
@@ -51,22 +56,21 @@ button{
 }
 
 ul{ 
-    margin: 10px 0;
+    margin-top:40px;
+    margin-bottom: 20px;
     list-style-type: none;
     padding: 0;
 }
 
 li{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     padding: 10px;
     font-size: 15px;
     cursor: pointer;
     letter-spacing: 1px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-li:hover{
-    background: rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    background-color:#fff;
 }
 
 h1{
